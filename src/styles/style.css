@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #fff5ee;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 2.2rem 2.2rem;
+  align-items: center;
+  background-color: #fffff0;
+  box-shadow: 0px 5px 5px rgba(227, 226, 226, 0.478);
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  width: 90%;
+  text-align: center;
+}
+.btn-download {
+  margin: 0 auto;
+  text-decoration: none;
+  background-color: #ffe4e1;
+  color: black;
+  font-size: 1.8rem;
+  padding: 1.6rem 1.6rem;
+  border-radius: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.btn-download:hover {
+  transform: scale(1.2);
+}

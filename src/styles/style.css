@@ -16,7 +16,7 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 2.2rem 2.2rem;
   align-items: center;
   background-color: #fffff0;
@@ -26,19 +26,134 @@ header {
 
 h1 {
   font-size: 3rem;
-  width: 90%;
+  width: 91%;
   text-align: center;
 }
 .btn-download {
-  margin: 0 auto;
   text-decoration: none;
+  display: inline-block;
   background-color: #ffe4e1;
   color: black;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 1.6rem 1.6rem;
   border-radius: 1.5rem;
   transition: all 0.3s ease-in-out;
 }
 .btn-download:hover {
   transform: scale(1.2);
+}
+.main-container {
+  display: flex;
+  padding: 2rem 2rem;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 2rem;
+}
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  width: 30%;
+}
+.general-section,
+.education-section,
+.experience-section {
+  background-color: #f8cdc7;
+  border-radius: 2rem;
+  padding: 3rem 2.4rem;
+}
+h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+  padding: 1.2rem 1.2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+label {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 1.4rem 1.4rem;
+  border-radius: 1.6rem;
+  width: 90%;
+  font-size: 2.2rem;
+}
+
+textarea {
+  border-radius: 1.6rem;
+  padding: 2rem 2rem;
+  font-size: 2.2rem;
+  width: 90%;
+  /* resize: none; */
+}
+button {
+  font-family: inherit;
+  border: none;
+  padding: 1.8rem 3rem;
+  font-size: 2.6rem;
+  color: #000;
+  display: inline-block;
+  box-shadow: 0px 10px 0px rgba(255, 254, 254, 0.811);
+  position: relative;
+  transition: all 0.1s;
+}
+button:active {
+  transform: translateY(0.4rem);
+  box-shadow: 0px 5px 0px rgba(240, 237, 237, 0.473);
+}
+.add-btn {
+  background-color: #ffdead;
+  width: 30%;
+  margin: 0 auto;
+}
+/* .generalsection-btn {
+  align-self: center;
+  font-size: 1.6rem;
+  padding: 1.8rem 1.8rem;
+  width: 25%;
+} */
+
+.added-Section {
+  background-color: #e3dac9;
+  padding: 1.6rem 1.6rem;
+  border-radius: 1.3rem;
+}
+
+.institution-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  font-size: 4rem;
+  text-align: center;
+}
+.delete-btn {
+  width: 30%;
+  background-color: #e9ffdb;
+}
+hr {
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  border-color: black;
+}
+.course-name {
+  font-size: 2rem;
+}
+.resume-section {
+  width: 45%;
+  height: 700px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 10px rgba(227, 226, 226, 0.636);
 }

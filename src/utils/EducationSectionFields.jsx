@@ -13,18 +13,12 @@ const educationFields = [
   },
   {
     Id: 3,
-    name: "Title",
-    type: "text",
-    value: "",
-  },
-  {
-    Id: 4,
     name: "Start Date",
     type: "date",
     value: "",
   },
   {
-    Id: 5,
+    Id: 4,
     name: "End Date",
     type: "date",
     value: "",

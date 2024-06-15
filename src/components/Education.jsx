@@ -53,7 +53,7 @@ function AddEducationSection({ institution, course, Id, onDelete }) {
             Delete
           </button>
         </div>
-        <hr />
+        <hr className="section-line"/>
         <p className="course-name">{course}</p>
       </div>
     </>

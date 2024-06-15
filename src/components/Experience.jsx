@@ -66,7 +66,7 @@ function AddEducationSection({ company, position, Id, onDelete }) {
             Delete
           </button>
         </div>
-        <hr />
+        <hr  className="section-line"/>
         <p className="course-name">{position}</p>
       </div>
     </>
